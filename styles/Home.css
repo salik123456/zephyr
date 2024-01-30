@@ -1,0 +1,72 @@
+
+@media  screen and (min-width:1024px) {
+    .project-carousel{
+padding-right: 0 ;
+overflow-x: hidden;
+
+
+    }
+
+    .project-carousel .slick-track{
+        left:-14% !important
+    }
+    .project-carousel .slick-dots{
+        bottom: -65px  !important;
+    }
+}
+
+.project-slide{
+    width: 90% !important;
+}
+
+
+.icon-img:hover {
+    transform: scale(1.1);
+    transition: 0.3s ease;
+}
+.ab-btn:hover {
+    background: black;
+    transition: 0.3s ease;
+    color: white;
+}
+
+
+.bg-anim{
+    overflow: hidden;
+}
+.bg-anim:hover img {
+    transform: scale(1.02);
+    transition: 0.5s ease;
+    /* border-radius: 20px; */
+}
+
+.img-anim-v2:hover{
+    transform: scale(0.9);
+
+}
+
+.img-anim-v3:hover{
+    transform: scale(1.02);
+
+}
+.img-anim-v2,
+.img-anim-v3 {
+    transition: transform 0.3s ease; 
+}
+
+
+
+@media screen and (max-width:1024px){
+    .icon-img{
+        width: 12% !important;
+    }
+    .img-anim-v2:hover{
+        transform: none !important;
+    
+    }
+    
+    .img-anim-v3:hover{
+        transform: none !important;
+    
+    }
+}

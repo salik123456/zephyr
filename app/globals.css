@@ -2,32 +2,99 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
+
+
+/* // global styles */
+
+
+.site-wrapper{
+    padding: 5rem 7rem;
+}
+.custom-btn {
+    border-radius: 0px 73.302px 73.302px 0px;
+    padding: 1rem;
+}
+/* animation text */
+.anim-text {
+    font-size: 153px;
+    /* height: 405px !IMPORTANT; */
+    line-height: 80px;
+    padding: 2rem;
+    font-weight: 800;
+    letter-spacing: 76px;
+    text-transform: uppercase;
+    background-image: url('/Global/animing.webp');
+    background-size: contain;
+    color: #de466c;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.last-letter {
+    letter-spacing: normal;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
+
+.scale-anim{
+    transition: 0.3s ease-in-out;
+}
+.scale-anim:hover{
+    transform: scale(1.2);
+}
+
+.scale-anim-v2{
+    transition: 0.3s ease-in-out;
+}
+.scale-anim-v2:hover{
+    transform: scale(1.04);
+}
+.hover-container {
+    display: flex;
+    cursor: pointer;
+    align-items: center;
   }
-}
-
-body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
-}
-
-@layer utilities {
-  .text-balance {
-    text-wrap: balance;
+  
+  .arrow-icon {
+    margin-left: 8px; 
+    transform: translateX(0); 
+    transition: transform 0.3s ease; 
   }
+  
+  .hover-container:hover .arrow-icon {
+    transform: translateX(4px); 
+  }
+  
+  
+/* // global styles */
+
+
+
+/* responsivenss */
+@media screen and (max-width:1024px){
+    .site-wrapper {
+        padding: 3rem 2rem;
+    }
+    .footer-menu .scale-anim{
+        transform: none !important;
+    }
+}
+@media screen and (min-width:769px) and (max-width:1080px){
+    .anim-text {
+        font-size: 93px;
+        line-height: 80px;
+        padding: 1rem;
+        font-weight: 800;
+        letter-spacing: 36px;
+
+    }
+}
+
+@media screen and (max-width:768px){
+    .anim-text {
+        font-size: 53px;
+        line-height: 80px;
+        padding: 0rem !important;
+        font-weight: 800;
+        letter-spacing: 16px;
+
+    }
 }

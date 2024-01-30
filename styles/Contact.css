@@ -1,0 +1,25 @@
+@media screen and (min-width:1024px){
+    .contact-left,.border-same{
+border-radius: 20px 0 0px 20px;
+    }
+}
+
+
+@media screen and (max-width:1024px){
+    /* .contact-bg , .border-check{
+        border-radius: 20px 20px 20px 20px !important;
+    } */
+    .contact-border{
+        border-radius: 20px 20px 0 0;    
+    }
+    .contact-hero-sec{
+        padding-left: 0 !important;
+        padding-right: 0 !important;
+    }
+    .map{
+        height: 50vh !important;
+    }
+    .form-col{
+        padding-top: 0!important;
+    }
+}

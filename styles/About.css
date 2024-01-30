@@ -1,0 +1,51 @@
+
+.about-hero{
+    padding-top: 2rem;;
+}
+.about-hero-img.zoom-in {
+    animation: zoomInAnimation 5s ease; /* Adjust the duration for a slower animation */
+  }
+  
+  @keyframes zoomInAnimation {
+    from {
+      background-size: 100%;
+    }
+    to {
+      background-size: 110%;
+    }
+  }
+  /* .gradient-zoom-in {
+    animation: zoomInGradient 5s ease; /* Adjust the duration for a slower animation */
+  /* }
+  
+  @keyframes zoomInGradient {
+    from {
+      height: 110%;
+    }
+    to {
+      height: 100%;
+    }
+  } */ 
+    
+  
+
+@media screen and (min-width:1024px){
+    .about-mission{
+        padding-right: 0;
+    }
+}
+
+
+
+
+/* responsiveness */
+
+
+@media screen and (max-width:1024px) {
+  .about-hero-img.zoom-in {
+    animation: none !important;
+}
+.icon-box{
+  transform: none !important;
+}
+}
