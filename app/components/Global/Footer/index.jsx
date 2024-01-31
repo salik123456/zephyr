@@ -12,7 +12,7 @@ const Footer = () => {
 <div className='site-wrapper relative footer-wrapper bg-cover bg-center pb-[5rem]' style={{backgroundImage: "url('/Global/footer_bg.jpg')"}}>
 <div className='absolute black left-0 top-0 w-full h-full bg-[#00000094]'/>
       <div className='flex justify-between relative z-[2] lg:flex-row flex-col'>
-        <div className='lg:w-[20%] text-white'> <p>@Zephr- All Rights Reserved.</p></div>
+        <div className='lg:w-[20%] text-white'> <p>@Zephyr- All Rights Reserved.</p></div>
 
        <div className='flex lg:flex-row footer-menu flex-col mt-6 lg:mt-auto justify-between lg:w-[36%]'>
 <Link href='/' className='text-white scale-anim'>Home</Link>
