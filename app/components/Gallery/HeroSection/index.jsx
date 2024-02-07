@@ -5,6 +5,10 @@ import GalleryTwo from '@/public/Gallery/gallerytwo.png'
 import GalleryThree from '@/public/Gallery/gallerythree.png'
 import GalleryFour from '@/public/Gallery/galleryfour.png'
 import GalleryFive from '@/public/Gallery/galleryfive.png'
+import GallerySeven from '@/public/Gallery/galleryseven.png'
+import GalleryEight from '@/public/Gallery/galleryeight.png'
+import GalleryNine from '@/public/Gallery/gallerynine.png'
+import GalleryTen from '@/public/Gallery/galleryten.png'
 import Link from 'next/link'
 import { FaArrowRight } from "react-icons/fa6";
 
@@ -19,16 +23,16 @@ const HeroSection = () => {
             </div>
             <div className='flex flex-row mt-6 lg:mt-0  justify-between flex-wrap w-full lg:w-[49%] '>
             <div className='lg:w-[47%] w-[49%]   '>
-<Image src={GalleryTwo} alt='gallerytwo' className='scale-anim-v3' />
+<Image src={GallerySeven} alt='gallerytwo' className='scale-anim-v3' />
             </div>
             <div className='lg:w-[47%] w-[49%]  '>
-<Image src={GalleryThree} alt='gallerythree' className='scale-anim-v3' />
+<Image src={GalleryEight} alt='gallerythree' className='scale-anim-v3' />
             </div>
             <div className='lg:w-[47%] w-[49%] mt-2 lg:mt-2  '>
-<Image src={GalleryFour} alt='galleryfour' className='scale-anim-v3'/>
+<Image src={GalleryNine} alt='galleryfour' className='scale-anim-v3'/>
             </div>
             <div className='lg:w-[47%] w-[49%] mt-2 lg:mt-2  '>
-<Image src={GalleryFive} alt='galleryfive' className='scale-anim-v3' />
+<Image src={GalleryTen} alt='galleryfive' className='scale-anim-v3' />
             </div>
             </div>
         </div>

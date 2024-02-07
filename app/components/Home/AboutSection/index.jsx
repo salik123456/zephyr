@@ -47,7 +47,7 @@ const AboutSection = () => {
     30 km
 </h3>
 
-<p className='font-light mt-1 lg:tex-base text-[12px] lg:mt-4'> Elite <br/> Bicycle route</p>
+<p className='font-light mt-1 lg:tex-base text-[12px] lg:mt-4'> Elite Bicycle route</p>
 </div>
 
 <div className='icon-box flex flex-col mt-8 lg:mt-0 w-[48%] lg:w-[23%]'>
@@ -57,7 +57,7 @@ const AboutSection = () => {
     150,000 sqm
 </h3>
 
-<p className='font-light mt-1 lg:tex-base text-[12px] lg:mt-4'> Zephyr <br/> Supreme Park </p>
+<p className='font-light mt-1 lg:tex-base text-[12px] lg:mt-4'> Zephyr Supreme Park </p>
 </div>
 </div>
 </div>

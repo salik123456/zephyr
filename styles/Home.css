@@ -7,9 +7,9 @@ overflow-x: hidden;
 
     }
 
-    .project-carousel .slick-track{
+    /* .project-carousel .slick-track{
         left:-14% !important
-    }
+    } */
     .project-carousel .slick-dots{
         bottom: -65px  !important;
     }
@@ -70,3 +70,9 @@ overflow-x: hidden;
     
     }
 }
+
+
+
+/* .project-carousel .slick-slide{
+    width: auto !important;
+} */

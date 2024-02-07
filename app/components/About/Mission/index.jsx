@@ -1,6 +1,6 @@
 import Image from 'next/image'
 import React from 'react'
-import AboutImg from '@/public/About/aboutimg.jpg'
+import AboutImg from '@/public/About/aboutimg.png'
 
 const MissionSection = () => {
     return (

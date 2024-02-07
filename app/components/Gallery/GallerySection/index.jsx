@@ -4,6 +4,8 @@ import GalleryTwo from '@/public/Gallery/gallerytwo.png'
 import GalleryThree from '@/public/Gallery/gallerythree.png'
 import GalleryFour from '@/public/Gallery/galleryfour.png'
 import GalleryFive from '@/public/Gallery/galleryfive.png'
+import GallerySix from '@/public/Gallery/gallerysix.png'
+
 import Image from 'next/image'
 
 const GallerySection = () => {
@@ -15,7 +17,7 @@ const GallerySection = () => {
         <Image src={GalleryTwo} alt='gallery-one' className='w-full scale-anim-v3'/>
         </div>
         <div className='lg:w-[31%] w-[44%] m-2'>
-        <Image src={GalleryTwo} alt='gallery-two' className='w-full scale-anim-v3'/>
+        <Image src={GalleryOne} alt='gallery-two' className='w-full scale-anim-v3'/>
         </div>
         <div className='lg:w-[31%] w-[44%] m-2'>
         <Image src={GalleryThree} alt='gallery-three' className='w-full scale-anim-v3'/>
@@ -27,7 +29,7 @@ const GallerySection = () => {
         <Image src={GalleryFive} alt='gallery-five' className='w-full scale-anim-v3'/>
         </div>
         <div className='lg:w-[31%] w-[44%] m-2'>
-        <Image src={GalleryFive} alt='gallery-six' className='w-full scale-anim-v3'/>
+        <Image src={GallerySix} alt='gallery-six' className='w-full scale-anim-v3'/>
         </div>
       </div>
     </div>

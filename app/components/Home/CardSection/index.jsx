@@ -24,6 +24,13 @@ const Carousel = () => {
             location: '760m2 Living Area',
         },
         {
+            imageUrl: '/Home/Product/productseven.png',
+            heading: 'Elite Precious Bay',
+            description: 'The magical bay',
+            price: 'AED 20,000',
+            location: '390m2 Living Area',
+        },
+        {
             imageUrl: '/Home/Product/productfive.png',
             heading: 'Arabian Bay',
             description: 'The arab national bay',
@@ -38,11 +45,11 @@ const Carousel = () => {
             location: '860m2 Living Area',
         },
         {
-            imageUrl: '/Home/Product/productfour.png',
-            heading: 'Sweet Precious Bay',
-            description: 'It is also called blue bay',
-            price: 'AED 90,000',
-            location: '360m2 Living Area',
+            imageUrl: '/Home/Product/productsix.png',
+            heading: 'Elite Precious Bay',
+            description: 'The magical bay',
+            price: 'AED 20,000',
+            location: '390m2 Living Area',
         },
         // Add more data objects here
     ];
@@ -54,7 +61,7 @@ const Carousel = () => {
         dots: true,
         infinite: true,
         speed: 500,
-        slidesToShow: 3.5, // Default slides to show
+        slidesToShow: 4, // Default slides to show
         slidesToScroll: 1,
         responsive: [
             {
@@ -108,7 +115,7 @@ const Carousel = () => {
                             <p className='mt-1 text-[12px] lg:text-[14px] text-[#727171]'>{item.description}</p>
                             <div className="price-location mt-2 flex justify-between">
                                 <span className="price text-[16px] lg:text-[24px] font-bold">{item.price}</span>
-                                <span className="location p-2 px-4 text-[8px] lg:text-[12px] bg-[#80808057] rounded-[10px]">{item.location}</span>
+                                <span className="location hidden p-2 px-4 text-[8px] lg:text-[12px] bg-[#80808057] rounded-[10px]">{item.location}</span>
                             </div>
                         </div>
                     ))}
